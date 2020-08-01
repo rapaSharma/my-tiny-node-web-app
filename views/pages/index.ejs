@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Index </title>
+    <% include('../partials/_header') %>
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+
+<body>
+    <h1>Hello <%= name %></h1>
+    <img src="./Sharadhambe.jpg" alt="Goddess Sharadhambe photo expected here!" width="44%">
+    <% listnames.forEach(function(name) { %>
+        <p><%= name  %></p>
+    <% }); %>
+</body>
+
+</html>
