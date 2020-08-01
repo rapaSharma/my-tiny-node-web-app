@@ -1,1 +1,3 @@
-alert('Welcome!');
+function headerClicked() {
+    alert("Welcome!");
+}
